@@ -87,7 +87,7 @@ function confirmedWavyKey(){
 function confirmedWavyClick(key){
   buffer.push(key);
   console.log(buffer);
-  if (buffer.sort().join(',') === perfectBuffer.sort().join(',')) {
+  if (buffer.join(',') === perfectBuffer.join(',')) {
     document.querySelector('.unlockContainer').classList.remove('hidden');
   }
 }
