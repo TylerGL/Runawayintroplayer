@@ -79,7 +79,7 @@ var perfectBuffer = ["a", "a", "a", "s", "d", "d", "d", "f", "g", "g", "g", "h",
 function confirmedWavyKey(){
   buffer.push(event.key);
   console.log(buffer);
-  if (buffer.sort().join(',') === perfectBuffer.sort().join(',')) {
+  if (buffer.join(',') === perfectBuffer.join(',')) {
     document.querySelector('.unlockContainer').classList.remove('hidden');
   }
 }
