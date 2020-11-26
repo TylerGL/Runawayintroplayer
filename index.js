@@ -64,6 +64,7 @@ function makeSound(key) {
   }
 }
 
+//button animation
 function buttonAnimation(currentKey) {
   var activeButton = document.querySelector("." + currentKey);
   activeButton.classList.add("pressed");
@@ -75,6 +76,7 @@ function buttonAnimation(currentKey) {
 //sequence function
 var buffer = [];
 var perfectBuffer = ["a", "a", "a", "s", "d", "d", "d", "f", "g", "g", "g", "h", "j", "j", "k", "a"];
+
 // key sequence
 function confirmedWavyKey(){
   buffer.push(event.key);
@@ -83,6 +85,7 @@ function confirmedWavyKey(){
     document.querySelector('.unlockContainer').classList.remove('hidden');
   }
 }
+
 // click sequence
 function confirmedWavyClick(key){
   buffer.push(key);
