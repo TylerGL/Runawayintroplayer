@@ -1,0 +1,81 @@
+body {
+  background-color: #f12443;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center;
+  margin: 3% 5% 2%;
+  color:#181818;
+}
+
+h1 {
+  font-size: 5rem;
+  text-shadow: 3px 2px #cf9534;
+  margin:3% 5% 2%;
+}
+
+h3 {
+  font-size: 1rem;
+  text-shadow: 3px 2px #cf9534;
+}
+
+p{
+  font-size: 1rem;
+}
+
+a{
+  color:#181818;
+}
+
+.topbanner{
+  width:20%;
+  position: absolute;
+  top:2%;
+  z-index: -1;
+}
+.coverimg{
+  left:0;
+}
+.coverimg2{
+  right:0;
+}
+
+.intronotes{
+  margin: 4% auto 2%;
+}
+
+.unlockContainer {
+  margin: 10% auto;
+}
+
+.kanye {
+  width: 10%;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #fff;
+  opacity: 0.5;
+}
+
+.keyset {
+  margin: 10% auto;
+}
+
+.key {
+  outline: none;
+  border: 10px solid #f4bc5f;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  border-radius: 15px;
+  display: inline-block;
+  width: 100px;
+  height: 180px;
+  text-align: center;
+  margin: 10px;
+  background-color: #0ca587;
+  text-shadow: 3px 2px #cf9534;
+}
